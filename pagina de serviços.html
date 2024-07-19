@@ -7,7 +7,7 @@
             body{
                 size: 700px;
                 background-image: linear-gradient( coral,rgb(73, 51, 43), rgb(187, 146, 131));
-                background-size: 700px 840px;
+                background-size: 1080px 1940px;
             }
             .Menu{
                 height: 150px;
@@ -21,16 +21,17 @@
                     font-style: italic;
                     font-stretch: condensed;
                     font-size: 15px;
-                    font-variant-emoji: 🐕;
                 }
             }
             .Item1{
+                height: max-content;
                 background-position: center;
                 background-color: cornflowerblue;
                 border-radius: 20px;
                 border-width: 10px;
                 font-size: 40px;
                 text-align: center;
+                align-items: center;
                 p{
                     color: aliceblue;
                     background-color: darksalmon;
@@ -42,10 +43,16 @@
             }
             #SubItem{
                 background-color: aquamarine;
+                background-position: center;
                 border-radius: 25px;
                 font-size: larger;
                 color: rgb(80, 49, 54);
                 text-align: center;
+                display: block;
+            }
+            a:hover{
+                color:rgb(208, 233, 255);
+                transition: 0.3s all;
             }
         </style>
         <title> PETSHOPSHOQUE</title>
@@ -55,15 +62,20 @@
         </div>
         <div class="Item1">&#128166 Banho &#128166<table>
             <tr>
-                <th id="SubItem">Rapido &#128168
+                <th id="SubItem"><a>&#128168 Rapido &#128168</a>
                     <p>feito só para uma limpeza rapida do animalzinho.</p>
                 </th>
                 
                 
             </tr>
             <tr>
-                <th id="SubItem">Relaxante &#127811
+                <th id="SubItem"><a>&#127811 Relaxante &#127811</a>
                     <p>feito visando deixar o seu animalzinho mais relaxado pocivel</p>
+                </th>
+            </tr>
+            <tr>
+                <th id="SubItem"> <a>Completo</a>
+                    <p>Tudo incluso</p>
                 </th>
             </tr>
         </table></div>
