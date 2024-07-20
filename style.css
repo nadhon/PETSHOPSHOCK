@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: coral;
-    color:black;
+    color:rgb(255, 255, 255);
     padding: 20px 0;
     text-align: center;
     font-style: italic;
@@ -42,6 +42,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+}
+nav ul li a:hover{
+    color:burlywood;
+    transition:0.3s all;
 }
 
 .hero {
@@ -56,15 +61,19 @@ nav ul li a {
 }
 
 .services, .products, .contact {
-    background-color: cornflowerblue;
+    background-color: rgba(192, 130, 88, 0.842);
     padding: 60px 0;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(216, 211, 211, 0.247);
     margin: 20px 0;
+    font-weight: bold;
+    p{
+        color:white;
+    }
 }
 
 .services h2, .products h2, .contact h2 {
-    color: yellow;
+    color: white;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -78,12 +87,12 @@ nav ul li a {
 }
 
 .services ul li, .products ul li {
-    background-color: aquamarine;
+    background-color: rgb(185, 255, 127);
     padding: 20px;
     margin: 10px;
     flex: 1 1 200px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 2px solid #000000;
     border-radius: 10px;
 }
 
@@ -96,6 +105,7 @@ nav ul li a {
 
 .contact form label {
     margin-top: 10px;
+    color: white;
 }
 
 .contact form input, .contact form textarea {
@@ -108,7 +118,7 @@ nav ul li a {
 .contact form button {
     margin-top: 20px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #20d126;
     color: white;
     border: none;
     border-radius: 5px;
