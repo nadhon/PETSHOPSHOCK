@@ -10,6 +10,7 @@
                 background-size: 1080px 1940px;
             }
             .Menu{
+                display: block;
                 height: 150px;
                 margin: 30px;
                 border: 150px;
@@ -24,6 +25,9 @@
                 }
             }
             .Item1{
+                display: block;
+                margin: 10px;
+                padding: auto;
                 height: max-content;
                 background-position: center;
                 background-color: #4c97b7;
@@ -35,23 +39,10 @@
                 p{
                     color: aliceblue;
                     background-color: darksalmon;
-                    margin: 1px;
+                    margin: 10px;
                     border-radius: 15px;
                     text-align: center;
                     font-size: 20px;
-                }
-                background-image: url("img/wave-primary.png"), url("img/wave.png");
-                background-repeat: no-repeat;
-                background-position: 130% 15%, 128% 15%;
-                animation: wave 3s cubic-bezier(0.30,0,0.41,1) infinite;
-            }
-            @keyframes wave{
-                0%
-                100% {
-                    background-position-x: 130%, 128%;
-                }
-                60% {
-                    background-position-x: 140%, 140%;
                 }
             }
             }
@@ -94,6 +85,7 @@
             </tr>
         </table></div>
         <button onclick="window.location.href='Home.html'">Voltar</button>
+        <button onclick="window.location.href='Home.html'">confirmar</button>
         <div class="Item2"></div>
         <div class="Item3"></div>
     </body>
